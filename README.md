@@ -9,7 +9,7 @@ Project to control a LED.
 - Câbles arduino mâle / femelle
 - Câble USB (to transfer data) 
 
-## Setup
+
 ### Install Arduino IDE ###   
 https://www.arduino.cc/en/software
 
@@ -23,6 +23,10 @@ https://www.arduino.cc/en/software
 
 **Driver (for mac) CP210x Mac OSX Driver :**
 - https://www.silabs.com/developer-tools/usb-to-uart-bridge-vcp-drivers?tab=downloads
+
+## Setup
+**Board and Port**
+- select ESP32 Dev Module and port
 
 ## To help
 **Guide de démarrage carte ESP32 GT0162 :**

@@ -1,17 +1,30 @@
 #define LED_PIN   2  
+// Creer une variable, sans utiliser define
+// bool state = true;
 
 void setup() {
   // put your setup code here, to run once:
   Serial.begin(115200);
   Serial.printf("started");
+
+  // Afficher la variable dans port
+
   pinMode(LED_PIN, OUTPUT);
 
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
-  digitalWrite(LED_PIN, HIGH);  // turn the LED on (HIGH is the voltage level)
-  delay(1000);                      // wait for a second
-  digitalWrite(LED_PIN, LOW);   // turn the LED off by making the voltage LOW
-  delay(1000);                      // wait for a second
+  // Allume la lumiere, en passant par la variable 
+    digitalWrite(LED_PIN, HIGH);
+    delay(1000);
+    digitalWrite(LED_PIN, LOW);
+    delay(1000);
+    // digitalWrite(LED_PIN, state ? HIGH : LOW);
+    // delay(500);
+
+  // Recupere une nouvelle valeur dans le port serie (true, false)
+  // affiche la variable 
+  // modifie l'etat de la led en foncition
+
+
 }
