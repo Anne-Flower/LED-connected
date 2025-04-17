@@ -29,10 +29,10 @@ https://www.arduino.cc/en/software
 - https://www.gotronic.fr/pj2-38527---gt0162-3214.pdf
 
 **Ports :**
-- ![alt text](ports.png)
+- ![alt text](assets/ports.png)
 
 **Diagram :**
-- ![alt text](diagram.png)
+- ![alt text](assets/diagram.png)
 
 **My install schema :**
-- ![alt text](schemaLED.png)
+- ![alt text](assets/schemaLED.png)
