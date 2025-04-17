@@ -1,17 +1,38 @@
 # LED Connectée avec ESP32 + WS2812B
 
-Project to control a LED via a web page.
+Project to control a LED.
 
 ## Material
-- ESP32 DevKit V1
-- Bande LED WS2812B (256 LEDs)
+- ESP32 (micro controler)
+- Bande LED WS2812B
 - Alimentation 5V
-- Câbles
+- Câbles arduino mâle / femelle
+- Câble USB (to transfer data) 
 
 ## Setup
-**Install Arduino IDE**  
+### Install Arduino IDE ###   
 https://www.arduino.cc/en/software
 
-**Add ESP32 support** to the Arduino IDE:  
-In *Preferences*, add this to the "Additional URLs":
-https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
+### Dependencies ### 
+**In boards manager :**
+- esp32 by Expressif Systems
+- Arduino ESP32 Boards by Arduino
+
+**In Aduino IDE -> Preferences -> Settings -> Additionnals Boards Manager Url :**
+- https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
+
+**Driver (for mac) CP210x Mac OSX Driver :**
+- https://www.silabs.com/developer-tools/usb-to-uart-bridge-vcp-drivers?tab=downloads
+
+## To help
+**Guide de démarrage carte ESP32 GT0162 :**
+- https://www.gotronic.fr/pj2-38527---gt0162-3214.pdf
+
+**Ports :**
+- ![alt text](ports.png)
+
+**Diagram :**
+- ![alt text](diagram.png)
+
+**My install schema :**
+- ![alt text](schemaLED.png)
