@@ -38,5 +38,8 @@ https://www.arduino.cc/en/software
 **Diagram :**
 - ![alt text](assets/diagram.png)
 
+**Alim :**
+- ![alt text](assets/external-alim-bidouille.png)
+
 **My install schema :**
 - ![alt text](assets/schemaLED.png)
